@@ -1,0 +1,26 @@
+{
+  "name": "hierarchy-module",
+  "title": "Hierarchy Module",
+  "description": "Creates a structure between drop-down menus for dynamic parent-child relationship.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/cgonzales/hierarchy-module",
+  "author": {
+    "name": "Chris Gonzales",
+    "url": "http://www.ccgonzales.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cgonzales/hierarchy-module.git"
+  },
+  "bugs": "https://github.com/cgonzales/hierarchy-module/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/cgonzales/hierarchy-module/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "keywords": []
+}
