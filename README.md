@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Hierarchy Module
 
 Creates a structure between drop-down menus for dynamic parent-child relationship.
@@ -15,9 +14,11 @@ In your web page:
 <script src="jquery.js"></script>
 <script src="dist/hierarchy-module.min.js"></script>
 <script>
-jQuery(function($) {
-  $.awesome(); // "awesome"
-});
+require(['jquery', 'app/hierarchy-module', 'app/dataStore'], function($, Hierarchy, dataStore){
+	
+		var menu = new Hierarchy(dataStore);
+	
+});	
 </script>
 ```
 
@@ -29,9 +30,3 @@ _(Coming soon)_
 
 ## Release History
 _(Nothing yet)_
-=======
-hierarchy-plugin
-================
-
-Creates a structure between drop-down menus for dynamic parent-child relationship
->>>>>>> 0b2cd30ead4a83ba6ef3432427e999cc44c140f7
